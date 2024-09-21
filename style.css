@@ -1,0 +1,39 @@
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C68FE6;
+    padding: 1%;
+    border: 0;
+    justify-content: space-evenly;
+}
+.nav_links{
+    display: inline-flex;
+    gap: 20px;
+    font-size: 20px;
+    border-right: 20px;
+   justify-content: space-between;
+}
+.logo img{
+    height: 450px;
+    width: 450px;
+    padding: 3%;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+    float: left;
+}
+.home_text{
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  margin-top: 8%;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
