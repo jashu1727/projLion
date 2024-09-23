@@ -1,15 +1,9 @@
-
 .header_container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #C68FE6;
-    padding: 1%;
-    border: 0;
-    justify-content: space-evenly;
+    align-content: center;
 }
 .nav_links{
-    display: inline-flex;
+    display: flex;
     gap: 20px;
     font-size: 20px;
     border-right: 20px;
@@ -36,4 +30,51 @@
 *{
     padding: 0;
     margin: 0;
+}
+.dislogo{
+height: 60px;
+width: 60px;
+display: flex;
+float: left;
+margin-left: 5px;
+margin-top: 5px;
+}
+.dishead{
+    align-items: center;
+    align-content: center;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.signin{
+    margin-top: 20px;
+    margin-left: 850px;
+    height: 40px;
+    width: 80px;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    background: #0b5492;
+    color: aliceblue;
+    cursor: pointer;
+}
+.join{
+    margin-left: 9px;
+    margin-top: 20px;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    font-size: 20px;
+    background: #0b5492;
+    color: azure;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    
+
+}
+body{
+   background-repeat: no-repeat;
+   background .
+   
 }
